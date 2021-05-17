@@ -26,8 +26,16 @@ public class Calculator {
 		return result;
 	}
 	public static int division(Integer input1, Integer input2) {
-		Integer result = input1 / input2;
-		System.out.println(result);
-		return result; 
+		Integer result = input1/input2; 
+		if(input1 > input2) {
+			System.out.println(result);
+			return  result;
+		} else {
+			System.out.println("This division can not be performed");
+			return 0;
+		}
+		
+		
+		 
 	}
 }
