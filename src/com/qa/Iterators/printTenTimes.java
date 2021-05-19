@@ -7,7 +7,7 @@ public class printTenTimes {
 //	            
 //	            
 //	        }
-		 method1(10);
+		 method1(15);
 	    }
 	 
 	 public static void method1(Integer input) {
